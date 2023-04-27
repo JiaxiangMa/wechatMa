@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page.data-v-02d79091 {
+  background-color: #ffffff;
+}
+.comment-hover-class.data-v-02d79091 {
+  background-color: #FFFFFF;
+}
+image.data-v-02d79091 {
+  will-change: transform;
+}
+.content .scrollView.data-v-02d79091 ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.content-imgbox.data-v-02d79091 {
+  position: relative;
+}
+.content-imgbox .bgimg.data-v-02d79091 {
+  width: 100%;
+  height: 560rpx;
+}
+.content-imgbox .headimg.data-v-02d79091 {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 6rpx;
+  position: absolute;
+  right: 30rpx;
+  bottom: -20rpx;
+}
+.content-imgbox .nickname.data-v-02d79091 {
+  color: #ffffff;
+  position: absolute;
+  right: 170rpx;
+  bottom: 20rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.content-circle-box.data-v-02d79091 {
+  padding: 18rpx 30rpx;
+  border-bottom: 1rpx solid #f2eeee;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.content-circle-box .headimg.data-v-02d79091 {
+  width: 80rpx;
+  height: 80rpx;
+}
+.content-circle-box .headimg .img.data-v-02d79091 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.content-circle-box .content.data-v-02d79091 {
+  flex: 1;
+  padding-left: 18rpx;
+  font-size: 32rpx;
+}
+.content-circle-box .content-name.data-v-02d79091 {
+  color: #36648b;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.content-circle-box .content-desc.data-v-02d79091 {
+  color: #000000;
+  padding-top: 4rpx;
+  font-size: 32rpx;
+}
+.content-circle-box .content-img.data-v-02d79091 {
+  margin-top: 10rpx;
+}
+.content-circle-box .content-img .img-1.data-v-02d79091 {
+  will-change: transform;
+  width: 280rpx;
+  height: auto;
+  max-height: 400rpx;
+}
+.content-circle-box .content-img-more.data-v-02d79091 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-circle-box .content-img-more .img-more.data-v-02d79091 {
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 4rpx;
+}
+.content-circle-box .content-img-more .img-3.data-v-02d79091 {
+  margin: 4rpx 4rpx 4rpx 0;
+}
+.content-circle-box .content .msg-box.data-v-02d79091 {
+  width: 100%;
+  background-color: #f4f4f5;
+  margin-top: 15rpx;
+  border-radius: 4rpx;
+}
+.content-circle-box .content .msg-box .thumbinfo.data-v-02d79091 {
+  padding: 6rpx;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.content-circle-box .content .msg-box .thumbinfo-icon.data-v-02d79091 {
+  width: 28rpx;
+  height: 28rpx;
+  line-height: 28rpx;
+  margin-right: 15rpx;
+  text-align: center;
+  vertical-align: middle;
+  padding-left: 10rpx;
+}
+.content-circle-box .content .msg-box .thumbinfo-name.data-v-02d79091 {
+  font-size: 28rpx;
+  color: #36648b;
+}
+.content-circle-box .content .msg-box .comment.data-v-02d79091 {
+  padding: 6rpx 8rpx;
+  color: #333;
+  font-size: 28rpx;
+}
+.content-circle-box .content .msg-box .comment-box.data-v-02d79091 {
+  padding: 4rpx 0;
+}
+.content-circle-box .content .msg-box .comment-box-name.data-v-02d79091 {
+  color: #36648b;
+}
+.content-circle-box .content .msg-box .comment-box-name .callback.data-v-02d79091 {
+  color: #333;
+}
+.content-circle-box .content .msg-box .comment-box-content.data-v-02d79091 {
+  word-break: break-all;
+}
+.content-circle-box .relavivetime.data-v-02d79091 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26rpx;
+}
+.content-circle-box .relavivetime .time.data-v-02d79091 {
+  color: #999;
+}
+.content-circle-box .relavivetime .icon-box.data-v-02d79091 {
+  display: flex;
+  align-items: center;
+}
+.content-circle-box .relavivetime .icon-box-item.data-v-02d79091 {
+  padding: 4rpx 12rpx;
+  border-radius: 6rpx;
+}
+.content-circle-box .relavivetime .icon-box-item.thumb.data-v-02d79091 {
+  margin-right: 10rpx;
+}
+.content-circle-box .relavivetime .icon-box .img.data-v-02d79091 {
+  width: 34rpx;
+  height: 34rpx;
+}
+.content .input-box.data-v-02d79091 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: content-box;
+  z-index: 999;
+  background-color: #eaeaea;
+}
+.content .input-box-flex.data-v-02d79091 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding: 0 20rpx;
+  height: 100rpx;
+}
+.content .input-box-flex-grow.data-v-02d79091 {
+  flex-grow: 1;
+}
+.content .input-box-flex-grow .content.data-v-02d79091 {
+  background-color: #fff;
+  height: 60rpx;
+  padding: 0 20rpx;
+  border-radius: 12rpx;
+  font-size: 28rpx;
+  caret-color: #4cd964;
+}
+.content .input-box-flex .btn.data-v-02d79091 {
+  margin-left: 20rpx;
+  background-color: #19be6b;
+  border: none;
+}
+.content .signature.data-v-02d79091 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 24rpx;
+  color: gray;
+  padding: 35rpx 30rpx 35rpx 100rpx;
+  text-align: right;
+}
+.content .slot-wrap.data-v-02d79091 {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.content .slot-btn.data-v-02d79091 {
+  width: 200rpx;
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f5f6;
+  border-radius: 10rpx;
+  border: 1rpx solid #e4e7ed;
+}
+

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.data-v-91f102f8 .u-picker-view {
+  background-color: #f3f4f6;
+}
+.trade-type.data-v-91f102f8 {
+  height: 120rpx;
+  padding: 40rpx 30rpx 0rpx 30rpx;
+  margin-bottom: 16rpx;
+  background-color: #e2e2e2;
+  border-radius: 10rpx;
+  text-align: center;
+  color: #000000;
+}
+.trade-type-4.data-v-91f102f8 {
+  padding: 25rpx 30rpx 0rpx 30rpx;
+}
+.trade-type-active.data-v-91f102f8 {
+  background-color: #e8f8ee;
+  border: 1rpx solid #18b566;
+  font-weight: bold;
+  color: #18b566;
+}
+
+
+page{
+	background-color: #efefef;
+}
+
+

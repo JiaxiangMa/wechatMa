@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.capsule {
+	display: flex; 
+	align-items: center; 
+	border:1px solid #E9E9E9;
+	 border-radius: 25px; 
+	 background: #fff;
+	 padding: 7rpx 20rpx; 
+	 position: relative;
+	 margin-right: 20rpx;
+}
+.capsule .more {width: 43rpx; height: 43rpx; margin-right: 20rpx;}
+.capsule .close {width: 36rpx; height: 36rpx; margin-left: 20rpx;}
+.capsule:before {content: ''; position: absolute; left: 50%; top:50%; -webkit-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 1px; height: 60%;
+	background: #D4D4D4;
+}
+

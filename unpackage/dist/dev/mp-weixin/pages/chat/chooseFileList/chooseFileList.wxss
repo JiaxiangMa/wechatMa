@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.container .slot-wrap.data-v-b10110de {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.container .scrollList.data-v-b10110de {
+  /* 列表 */
+  /* 列式弹性盒子 */
+  /* 弹性盒子弹性容器 */
+  /* 弹性盒子允许换行 */
+}
+.container .scrollList.data-v-b10110de ::-webkit-scrollbar {
+  display: none;
+  height: 0;
+  width: 0;
+}
+.container .scrollList .list.data-v-b10110de {
+  background-color: #fff;
+  font-size: 28rpx;
+  color: #333;
+  -webkit-user-select: none;
+          user-select: none;
+  touch-callout: none;
+}
+.container .scrollList .list > view.data-v-b10110de {
+  padding: 24rpx 30rpx;
+  position: relative;
+}
+.container .scrollList .list > view.data-v-b10110de:active, .container .scrollList .list > view.active.data-v-b10110de {
+  background-color: #f3f3f3;
+}
+.container .scrollList .list > view image.data-v-b10110de {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 4px;
+  margin-right: 20rpx;
+}
+.container .scrollList .list > view > view.data-v-b10110de {
+  line-height: 50rpx;
+}
+.container .scrollList .list > view > view .time.data-v-b10110de,
+.container .scrollList .list > view > view .info.data-v-b10110de {
+  color: #999;
+  font-size: 24rpx;
+}
+.container .scrollList .list > view > view .time.data-v-b10110de {
+  text-align: right;
+}
+.container .scrollList .list > view > view .info.data-v-b10110de {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.container .scrollList .list > view.data-v-b10110de:not(:first-child) {
+  margin-top: 1px;
+}
+.container .scrollList .list > view.data-v-b10110de:not(:first-child)::after {
+  content: '';
+  display: block;
+  height: 0;
+  border-top: #CCC solid 1px;
+  width: 620rpx;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+  /* 1px像素 */
+}
+.container .scrollList .flex_col.data-v-b10110de {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+.container .scrollList .flex_col .flex_grow.data-v-b10110de {
+  width: 0;
+  flex-grow: 1;
+}
+.container .scrollList .flex_row .flex_grow.data-v-b10110de {
+  flex-grow: 1;
+}
+.container .scrollList .flex_col.flex_wrap.data-v-b10110de {
+  flex-wrap: wrap;
+}
+.container .scrollList .fileSize.data-v-b10110de {
+  width: 30%;
+  text-align: left;
+  margin-right: 30rpx;
+  color: #D8D8D8;
+}
+.container .scrollList .uploadTime.data-v-b10110de {
+  width: 60%;
+  text-align: right;
+  margin-right: 10rpx;
+  color: #D8D8D8;
+}
+.data-empty.data-v-b10110de {
+  min-height: 600rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+

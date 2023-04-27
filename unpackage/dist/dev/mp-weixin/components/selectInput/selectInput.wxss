@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.mask.data-v-03b3603c {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: transparent;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+}
+.mask-show.data-v-03b3603c {
+  opacity: 1;
+  z-index: 1000;
+}
+.uni-combox__selector.data-v-03b3603c {
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+  right: 40rpx;
+  box-sizing: border-box;
+  width: 130px;
+  background-color: #303133;
+  border-radius: 10rpx;
+  box-shadow: #dddddd 2px 2px 4px, #dddddd -2px -2px 4px;
+  z-index: 998;
+  opacity: 0.9;
+}
+.triangle.data-v-03b3603c {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: solid 5px #303133;
+  border-right: solid 5px transparent;
+  border-left: solid 5px transparent;
+  right: 30rpx;
+  top: 0rpx;
+  z-index: 999;
+}
+.uni-combox__selector-scroll.data-v-03b3603c {
+  height: 200px;
+  box-sizing: border-box;
+}
+.uni-combox__selector-item.data-v-03b3603c {
+  text-align: left;
+  padding: 26rpx 0rpx;
+  width: 85px;
+  border-bottom: 1rpx solid #c0c0c0;
+  font-size: 34rpx;
+}
+/* 
+.uni-combox__selector-item:last-child {
+	border-bottom: none;
+} */
+

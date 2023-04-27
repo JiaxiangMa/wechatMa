@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

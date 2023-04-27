@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-dropdown": "/node-modules/uview-ui/components/u-dropdown/u-dropdown",
+    "u-dropdown-item": "/node-modules/uview-ui/components/u-dropdown-item/u-dropdown-item",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag"
+  }
+}

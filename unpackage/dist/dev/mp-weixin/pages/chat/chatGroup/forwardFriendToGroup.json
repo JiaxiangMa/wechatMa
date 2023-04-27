@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": "false",
+  "navigationBarTitleText": "选择朋友",
+  "usingComponents": {
+    "u-index-list": "/node-modules/uview-ui/components/u-index-list/u-index-list",
+    "u-index-anchor": "/node-modules/uview-ui/components/u-index-anchor/u-index-anchor",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image"
+  }
+}

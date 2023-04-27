@@ -1,0 +1,772 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},	
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index/startUp",
+		    "style" :                                                                                    
+		    {
+		      "navigationStyle": "custom",
+			  "app-plus": {
+				"animationType": "fade-in", // 设置fade-in淡入动画，为最合理的动画类型
+				"background": "transparent", // 背景透明
+				"backgroundColor": "rgba(0,0,0,0)", // 背景透明
+				"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+			  	}
+		    }
+		},
+		{
+			"path": "pages/index/login",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					//"softinputMode":"adjustResize",  //兄弟们,不要删这个
+					"titleView": false
+				}
+			}
+		},
+		{
+		    "path" : "pages/index/home",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "navigationStyle": "custom"
+		    }
+		},
+		{
+			"path": "pages/chat/chatGroupList",
+			"style": {
+				"enablePullDownRefresh":"false",
+				"navigationBarTitleText": "微信",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path" : "pages/chat/contactList",
+		    "style" :                                                                                    
+		    {
+				"enablePullDownRefresh":"true",
+				"navigationBarTitleText": "通讯录",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/icon/iconfont.ttf",
+							"float": "right",
+							"text": "\ue630",
+							"fontSize":"20px"
+						}]
+					}
+				}
+				   
+		    }
+		},
+		{
+		    "path" : "pages/chat/findMore/findMore",
+		    "style" :                                                                                    
+		    {
+		     "navigationBarTitleText": "发现",
+		     "navigationStyle": "custom"
+		    }
+		},
+		{
+		    "path" : "pages/chat/findMore/friendCircle",
+		    "style" :                                                                                    
+		    {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": " ",
+				"transparentTitle": "auto",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+						"softinputMode":"adjustResize",  //兄弟们,不要删这个
+						"titleView": false
+				}
+				// "app-plus": {
+				// 	"softinputMode":"adjustResize",  //兄弟们,不要删这个
+				// 	"titleNView": {
+				// 		"type": "transparent",
+				// 		"backgroundColor":"#f3f4f6",
+				// 		"coverage":"45%", //h5不起作用
+				// 		"backButton": {
+				// 			"color": "#303133",
+				// 			"background": "rgba(255,255,255,0)"
+				// 		},
+				// 		"buttons": [{
+				// 				"fontSrc": "/static/iconfont/iconfont.ttf",
+				// 				"float": "right",
+				// 				"text": "\ue609",
+				// 				"color": "#303133",
+				// 				"background": "rgba(255,255,255,0)"
+				// 			}
+				// 		]
+				// 	}
+				// }
+		    }
+		},
+		{
+		    "path" : "pages/my/my",
+			"style": {
+				 "navigationBarTitleText": " ",
+				 "navigationStyle": "custom",
+				 "app-plus": {
+					 "titleView": false
+				 }
+			}
+		    
+		},
+        {
+            "path" : "pages/my/set",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myCenter",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/setAvatar",
+            "style" :                                                                                    
+            {
+				 "navigationStyle": "custom",
+				 "app-plus": {
+						 "bounce":"none",
+						 "bottom":"0",
+						 "contentAdjust":"false",
+						 "safearea":{
+							 "bottom":"none"
+						 }
+				   }
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/friends/addFriend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加朋友",
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/friends/phoneContacts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "手机联系人",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/searchFriends",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/friends/friendHome",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					 "titleView": false
+				}
+            }
+        }
+        ,{
+            "path" : "pages/chat/friends/moreInforMation",
+            "style" :                                                                                    
+            {
+               	"navigationBarTitleText": "社交资料",
+                "enablePullDownRefresh": false,
+				"backgroundColor":"#F8F8F8"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/chatting",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"backgroundColor":"#F8F8F8",
+				"app-plus": {
+					"softinputMode":"adjustResize",  //兄弟们,不要删这个
+					"titleView": false,
+					"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+				}
+			}
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/launchChat",
+			"style": {
+				"navigationBarTitleText": "发起群聊",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "确定",
+							"width": "auto",
+							"fontSize": 14,
+							"color":"#dbf1e1",
+							"margin-right": "30rpx"
+						}]
+					}
+				}
+		    }
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/chatDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					 "titleView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/updateGroupName",
+            "style" :                                                                                    
+            {
+               "enablePullDownRefresh": false,
+               "navigationStyle":"custom",
+               "navigationBarTextStyle":"white",
+               "app-plus": {
+               	 "softinputMode":"adjustResize", //兄弟们,不要删这个
+               	 "scrollIndicator":"none"
+               }
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/setChatGroupAdv",
+            "style" :                                                                                    
+            {
+               "enablePullDownRefresh": false,
+               "navigationStyle":"custom",
+               "navigationBarTextStyle":"white",
+               "app-plus": {
+               	 "softinputMode":"adjustResize", //兄弟们,不要删这个
+               	 "scrollIndicator":"none"
+               }
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/optionGroupMembers",
+            "style" :                                                                                    
+            {
+				"enablePullDownRefresh": false,
+                "navigationBarTitleText": "添加成员",
+                "app-plus": {
+                	"titleNView": {
+                		"buttons": [{
+                			"text": "确定",
+                			"width": "auto",
+                			"fontSize": 14,
+                			"color":"#dbf1e1",
+                			"margin-right": "30rpx"
+                		}]
+                	}
+                }
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/findMore/releaseFriendCircle",
+            "style" :                                                                                    
+            {
+              "navigationStyle": "custom",
+              "enablePullDownRefresh": false,
+              "backgroundColor":"#F8F8F8",
+              "app-plus": {
+              	"softinputMode":"adjustResize",  //兄弟们,不要删这个
+              	"titleView": false,
+				"scrollIndicator": "none", //隐藏页面滚动条  
+              	"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+              }
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/findMore/friendCirclePages/chooseLocation",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "所在位置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/findMore/friendCirclePages/chooseCirlcleBgImg",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择背景图",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/findMore/friendCirclePages/builtinBgImg",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+				"enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/friends/newFriendInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "添加好友",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/friends/friendApply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新的朋友",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/icon/iconfont.ttf",
+							"float": "right",
+							"text": "\ue630",
+							"fontSize":"20px"
+						}]
+					}
+				}
+            }
+            
+        },
+		{
+				"path": "components/updateVersion/updateVersion",
+				"style": {
+					"navigationStyle": "custom",  // 取消本页面的导航栏
+					"app-plus": {
+						"animationType": "fade-in", // 设置fade-in淡入动画，为最合理的动画类型
+						"background": "transparent", // 背景透明
+						"backgroundColor": "rgba(0,0,0,0)", // 背景透明
+						"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+					}
+				}
+		}
+		,{
+		    "path" : "pages/chattingroom/videoCalling",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/chat/chooseFileList/chooseFileList",
+            "style" :                                                                                    
+            {
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/search/searchFriend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/redbag/redbag",
+            "style" :                                                                                    
+            {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false,
+              "navigationStyle": "custom"
+            }
+            
+        }
+		,{
+		    "path" : "pages/chat/redbag/redbagForGroup",
+		    "style" :                                                                                    
+		    {
+		      "navigationBarTitleText": "",
+		      "enablePullDownRefresh": false,
+		      "navigationStyle": "custom"
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/my/service/service-home",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/service/wallat",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/msgForward",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/forwardMsgToNewGroup",
+            "style": {
+            	"navigationBarTitleText": "选择联系人",
+            	"app-plus": {
+            		"titleNView": {
+            			"buttons": [{
+            				"text": "确定",
+            				"width": "auto",
+            				"fontSize": 14,
+            				"color":"#dbf1e1",
+            				"margin-right": "30rpx"
+            			}]
+            		}
+            	}
+            }
+        }
+        ,{
+            "path" : "pages/search/search-group",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/forwardFriendToGroup",
+            "style" :                                                                                    
+            {
+               "enablePullDownRefresh":"false",
+               "navigationBarTitleText": "选择朋友"
+               /* "app-plus": {
+               	"titleNView": {
+               		"buttons": [{
+               			"fontSrc": "/static/icon/iconfont.ttf",
+               			"float": "right",
+               			"text": "\ue630",
+               			"fontSize":"20px"
+               		}]
+               	}
+               } */
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/service/paySet",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/findMore/video/video",
+            "style" :                                                                                    
+            {
+              "navigationBarTitleText": "uni-app",
+              "navigationStyle": "custom" 
+            }
+            
+        },
+		{
+				"path": "pages/u-full-screen/u-full-screen",
+				"style": {
+					"enablePullDownRefresh":"false",
+					"navigationStyle": "custom"
+				}
+		}
+        ,{
+            "path" : "pages/search/common-search",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/common-search-result",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/showMoreGroupMember",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/service/walletOption",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "",
+               "enablePullDownRefresh": false,
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/service/wallet-pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/findMore/video/xvideos",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "navigationStyle": "custom"
+            }
+            
+        },
+	   {
+				"path" : "pages/chat/chatting/chatting-checkbox",
+				"style": {
+					"navigationStyle": "custom",
+					"enablePullDownRefresh": false,
+					"backgroundColor":"#F8F8F8",
+					"app-plus": {
+						"softinputMode":"adjustResize",  //兄弟们,不要删这个
+						"titleView": false,
+						"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+					}
+				}
+		},
+		{
+		    "path" : "pages/webview/web-view",
+		    "style" :
+		    {
+		        "navigationStyle":"custom",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/chat/chatting/chat-record-content",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatGroup/groupQRCode",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/qr-info/qr-info",
+            "style" :                                                                                    
+            {
+              "navigationStyle":"custom",
+              "enablePullDownRefresh": false
+            }
+        }
+		// 群管理员
+        ,{
+            "path" : "pages/chat/chatGroup/group-admin-member",
+            "style" :                                                                                    
+            {
+              "navigationStyle":"custom",
+              "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/my/collection/index",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/collection/insert-collection-content",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/service/my-bill",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/my/service/my-bill-statistics",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle":"custom",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/index/privacy/privacy",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/index/temp/temp",
+		    "style" :                                                                                    
+		    {
+		       "navigationStyle":"custom",
+		       "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/my/service/my-bill-detail",
+            "style" :                                                                                    
+            {
+              "navigationStyle":"custom",
+              "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/chat/chatting/chat-gpt-conversion/chat-gpt-conversion",
+            "style" :                                                                                    
+            {
+			   "navigationBarTitleText": "chatgpt对话",
+               //"navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#19BE6B",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"fontSize":"11px",
+		"list": [
+			/* {
+				"pagePath": "pages/index/home",
+				"iconPath": "static/image/tabbar/homeBar.png",
+				"selectedIconPath": "static/image/tabbar/homeBar_hl.png",
+				"text": "首页"
+			}, */
+			{
+			"pagePath": "pages/chat/chatGroupList",
+			"iconPath": "static/image/tabbar/wechat_hl.png",
+			"selectedIconPath": "static/image/tabbar/wechat.png",
+			"text": "微信"
+			}
+		, {
+			"pagePath": "pages/chat/contactList",
+			"iconPath": "static/image/tabbar/contact.png",
+			"selectedIconPath": "static/image/tabbar/contact-fill.png",
+			"text": "通讯录"
+		}, {
+			"pagePath": "pages/chat/findMore/findMore",
+			"iconPath": "static/image/tabbar/find.png",
+			"selectedIconPath": "static/image/tabbar/find_hl.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/my/my",
+			"iconPath": "static/image/tabbar/my.png",
+			"selectedIconPath": "static/image/tabbar/my_hl.png",
+			"text": "我"
+		} 
+		]
+	},
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "tj-im",
+		"navigationBarBackgroundColor": "#f0f0f0",
+		"backgroundColor": "#f0f0f0",
+		"backgroundTextStyle":"light",
+		"pageOrientation":"portrait",
+		"app-plus": {
+			"bounce": "none"
+		}
+	}
+}

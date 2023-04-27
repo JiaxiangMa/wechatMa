@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.custom-navbar.data-v-2d9bc38f {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 30rpx;
+}
+.custom-navbar .nav-center.data-v-2d9bc38f {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.list-cell.data-v-2d9bc38f {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 24rpx;
+  overflow: hidden;
+  color: #323233;
+  font-size: 28rpx;
+  line-height: 48rpx;
+  background-color: #fff;
+  align-items: center;
+}
+
+
+page {
+  background-color: #f1f1f1;
+}
+

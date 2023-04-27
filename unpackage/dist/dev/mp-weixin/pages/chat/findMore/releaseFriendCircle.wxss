@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.releaseContainer .content.data-v-0cd67efc {
+  padding: 20rpx;
+}
+.releaseContainer .content .input-box.data-v-0cd67efc {
+  padding: 20rpx 0rpx;
+}
+.releaseContainer .content .input-box.data-v-0cd67efc ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.releaseContainer .content .input-box .input.data-v-0cd67efc {
+  caret-color: #4cd964;
+  padding: 15rpx;
+  width: initial;
+  font-size: 32rpx;
+}
+.releaseContainer .content .uploadBox.data-v-0cd67efc {
+  margin-top: 50rpx;
+}
+.releaseContainer .content .uploadBox .slot-btn.data-v-0cd67efc {
+  width: 200rpx;
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f5f6;
+  border-radius: 10rpx;
+  border: 1rpx solid #e4e7ed;
+}
+.releaseContainer .content .uploadBox .slot-btn__hover.data-v-0cd67efc {
+  background-color: #ebecee;
+}
+.releaseContainer .content .tips.data-v-0cd67efc {
+  margin-top: 120rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.content .upload .u-list-item,
+.content .upload .u-add-wrap {
+  background-color: #f8f8f8;
+  height: 180rpx !important;
+  width: 180rpx !important;
+}
+.content .slot-wrap {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="u-p-30"><u-navbar vue-id="75969c4b-1" title-bold="{{true}}" title-color="#000000" title="{{navbarTitle}}" bind:__l="__l"></u-navbar><view><u-parse vue-id="75969c4b-2" html="{{content}}" bind:__l="__l"></u-parse></view></view>

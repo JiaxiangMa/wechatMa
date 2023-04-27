@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "qr-info-pop": "/components/qr-info-pop/qr-info-pop"
+  }
+}

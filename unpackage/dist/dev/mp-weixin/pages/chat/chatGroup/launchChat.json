@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "发起群聊",
+  "usingComponents": {
+    "u-index-list": "/node-modules/uview-ui/components/u-index-list/u-index-list",
+    "u-index-anchor": "/node-modules/uview-ui/components/u-index-anchor/u-index-anchor",
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "create-group-pop": "/components/create-group-pop/create-group-pop",
+    "search-input": "/components/searchInput/index"
+  }
+}

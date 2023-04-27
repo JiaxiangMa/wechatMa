@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "发现",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-badge": "/node-modules/uview-ui/components/u-badge/u-badge",
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap"
+  }
+}

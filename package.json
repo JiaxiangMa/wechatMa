@@ -1,0 +1,18 @@
+{
+  "name": "chat_uniapp",
+  "version": "1.0.0",
+  "description": "一款仿微信界面的即时通讯APP,采用uniapp开发",
+  "main": "main.js",
+  "dependencies": {
+    "uview-ui": "^1.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/wangdan22/bangbang-chat-uniapp.git"
+  },
+  "author": "wd",
+  "license": "ISC"
+}

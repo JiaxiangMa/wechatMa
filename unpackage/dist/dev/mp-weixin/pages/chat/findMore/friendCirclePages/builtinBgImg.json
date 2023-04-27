@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image"
+  }
+}

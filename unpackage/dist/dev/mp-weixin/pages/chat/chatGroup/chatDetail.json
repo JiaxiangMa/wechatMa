@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "u-switch": "/node-modules/uview-ui/components/u-switch/u-switch",
+    "u-select": "/node-modules/uview-ui/components/u-select/u-select",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-line": "/node-modules/uview-ui/components/u-line/u-line",
+    "ls-loading": "/uni_modules/ls-loading/components/ls-loading/ls-loading",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

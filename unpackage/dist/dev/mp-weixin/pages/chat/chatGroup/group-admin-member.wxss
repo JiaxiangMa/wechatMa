@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.desc-box.data-v-5c3d7fc8 {
+  width: 100%;
+  padding: 30rpx;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* 九宫格start */
+.grid-box.data-v-5c3d7fc8 {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+.grid-body.data-v-5c3d7fc8 {
+  padding: 30rpx;
+}
+.grid-box .gird-item.data-v-5c3d7fc8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.grid-box .image.data-v-5c3d7fc8 {
+  width: 80rpx;
+  height: 80rpx;
+}
+.grid-text.data-v-5c3d7fc8 {
+  font-size: 28rpx;
+  margin-top: 4rpx;
+  color: #909399;
+  width: 120rpx;
+  text-align: center;
+}
+.grid-box .text.data-v-5c3d7fc8 {
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  font-family: PingFangSC-Regular, PingFangSC;
+  font-weight: 400;
+  color: #4a4a4a;
+  line-height: 26 upx;
+}
+.data-v-5c3d7fc8 .uni-grid-item__box.border-top {
+  border-top: hidden;
+}
+.data-v-5c3d7fc8 .uni-grid-item__box.border {
+  border-bottom: hidden;
+}
+/* 九宫格end */
+.badge-icon.data-v-5c3d7fc8 {
+  position: absolute;
+  top: 1rpx;
+  right: 10rpx;
+  width: 30rpx;
+  height: 30rpx;
+  z-index: 10000;
+}
+
+
+page {
+	background-color: #f1f1f1;
+}
+

@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "添加成员",
+  "usingComponents": {
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "search-input": "/components/searchInput/index"
+  }
+}

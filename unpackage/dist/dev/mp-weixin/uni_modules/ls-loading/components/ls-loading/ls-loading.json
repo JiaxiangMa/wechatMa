@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "comb-loader": "/uni_modules/ls-loading/components/ls-loading/components/comb-loader",
+    "rise-loader": "/uni_modules/ls-loading/components/ls-loading/components/rise-loader",
+    "progress-loader": "/uni_modules/ls-loading/components/ls-loading/components/progress-loader",
+    "jump-loader": "/uni_modules/ls-loading/components/ls-loading/components/jump-loader"
+  }
+}

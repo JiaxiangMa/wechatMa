@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "uqrcode": "/uni_modules/Sansnn-uQRCode/components/uqrcode/uqrcode",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

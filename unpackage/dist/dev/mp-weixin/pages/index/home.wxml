@@ -1,0 +1,1 @@
+<view class="data-v-14a6ab35"><u-navbar vue-id="ffa1871e-1" is-back="{{false}}" title="首页" class="data-v-14a6ab35" bind:__l="__l"></u-navbar><view class="container data-v-14a6ab35"><u-image vue-id="ffa1871e-2" width="100%" mode="widthFix" src="/static/image/heart.png" class="data-v-14a6ab35" bind:__l="__l"></u-image></view></view>

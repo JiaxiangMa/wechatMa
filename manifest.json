@@ -1,0 +1,255 @@
+{
+    "name" : "仿微信聊天app",
+    "appid" : "",
+    "description" : "",
+    "versionName" : "1",
+    "versionCode" : 100,
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Maps" : {},
+            "VideoPlayer" : {},
+            "Geolocation" : {},
+            "Share" : {},
+            "Camera" : {},
+            "Barcode" : {},
+            "Record" : {}
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_LOCATION_EXTRA_COMMANDS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>"
+                ],
+                "minSdkVersion" : ""
+            },
+            "ios" : {
+                "dSYMs" : false,
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "为了体验更完善",
+                    "NSPhotoLibraryAddUsageDescription" : "为了体验更完善",
+                    "NSCameraUsageDescription" : "为了体验更完善",
+                    "NSMicrophoneUsageDescription" : "为了体验更完善",
+                    "NSLocationWhenInUseUsageDescription" : "为了体验更完善",
+                    "NSLocationAlwaysUsageDescription" : "为了体验更完善",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "为了体验更完善"
+                }
+            },
+            "sdkConfigs" : {
+                "ad" : {
+                    "sigmob" : {}
+                },
+                "geolocation" : {
+                    "amap" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appkey_ios" : "64fd69f96baeb2c7ea0faefac98fb976",
+                        "appkey_android" : "a784e304041da5539cc90b366f945fb1"
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "64fd69f96baeb2c7ea0faefac98fb976",
+                        "appkey_android" : "a784e304041da5539cc90b366f945fb1"
+                    }
+                },
+                "push" : {},
+                "share" : {},
+                "oauth" : {}
+            },
+            "splashscreen" : {
+                "iosStyle" : "common"
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            }
+        },
+        "nativePlugins" : {
+            "AThree-weixinShare" : {
+                "__plugin_info__" : {
+                    "name" : "weixinShare",
+                    "description" : "weixinShare",
+                    "platforms" : "Android",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            },
+            "Mpaas-Scan" : {
+                "AppId" : "ALIPUB51502EA181712",
+                "License" : "ciZuz0Bsmp8iToY9xSkg9Eug9kvg8I4hSLqQYgKJHWlySYlBqk+rJqdwYJR6hjacngyuSi3ewYnthouECucWY6X7rZlQDR2T7dEWHVd307eZ/yG2y6Ezx5IT5rZvam5KyjalfX3DZgQeHl1L6zh/HDQFTj6wyXjR3tv/1h1Gk9bCzGuMUmK0D0y2R4uebYCWEBMXKJ78Ka5fQUDs2tYFiE1DROBbCf/oKopl6OnwcxuLlYTeNuMZvIpG+Fc2BnN/hU5KxnpLT3sm/W1MwBq3MuaeZP1shKaznSSNQP8puILKgtXKc93la8qV1t/+noScjJLjJFyHpuApsuzyb3g81Q==",
+                "WorkspaceId" : "default",
+                "__plugin_info__" : {
+                    "name" : "支付宝原生扫码插件",
+                    "description" : "支付宝原生扫码组件，包体积仅0.7MB，15分钟即可完成接入。同时，mPaaS提供「扫码分析」大盘",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=2636",
+                    "android_package_name" : "com.wd.imchat",
+                    "ios_bundle_id" : "com.guizhou.chengrenjiaoyu",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "2636",
+                    "parameters" : {
+                        "AppId" : {
+                            "des" : "Android平台的AppId，请填写Android的config文件中的appId对应的值",
+                            "key" : "mobilegw.appid",
+                            "value" : ""
+                        },
+                        "License" : {
+                            "des" : "Android平台的License,，请填写Android的config文件中的mpaasConfigLicense对应的值",
+                            "key" : "mpaasConfigLicense",
+                            "value" : ""
+                        },
+                        "WorkspaceId" : {
+                            "des" : "Android平台的WorkspaceId，请填写Android的config文件中的workspaceId对应的值",
+                            "key" : "workspaceId",
+                            "value" : ""
+                        }
+                    }
+                }
+            },
+            "YS-VideoThumbnail" : {
+                "__plugin_info__" : {
+                    "name" : "Ios视频缩略图获取",
+                    "description" : "Ios视频缩略图获取,获取有效的第一帧，本插件免费提供也是本公司内部在使用。",
+                    "platforms" : "iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=2834",
+                    "android_package_name" : "com.wd.imchat",
+                    "ios_bundle_id" : "com.guizhou.chengrenjiaoyu",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "2834",
+                    "parameters" : {}
+                }
+            },
+            "GuoWei-SelectFileModule" : {
+                "__plugin_info__" : {
+                    "name" : "Android文件选择",
+                    "description" : "目录方式，选择Android手机储存文件，支持多选、过滤，需要离线打包的联系邮箱：457333989@qq.com",
+                    "platforms" : "Android",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=4607",
+                    "android_package_name" : "com.wd.imchat",
+                    "ios_bundle_id" : "com.guizhou.chengrenjiaoyu",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "4607",
+                    "parameters" : {}
+                }
+            },
+            "K-VideoInfoModule" : {
+                "__plugin_info__" : {
+                    "name" : "获取视频信息android原生插件",
+                    "description" : "获取视频信息android原生插件，如视频宽高分辨率，比特率，第一帧原尺寸图片",
+                    "platforms" : "Android",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=3309",
+                    "android_package_name" : "com.wd.imchat",
+                    "ios_bundle_id" : "com.guizhou.chengrenjiaoyu",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "3309",
+                    "parameters" : {}
+                }
+            },
+            "TencentCloud-TUICallKit" : {
+                "__plugin_info__" : {
+                    "name" : "【官方】腾讯云音视频通话插件TencentCloud-TUICallKit",
+                    "description" : "TUICallKit 是腾讯云官方推出的音视频通话插件，支持 1v1 通话和群组通话，并提供“类微信\"的 UI 交互，开发者仅需三个 API 就可实现。",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=9035",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "9035",
+                    "parameters" : {}
+                }
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "2"
+}

@@ -1,0 +1,1 @@
+<view><u-navbar vue-id="8ddb4382-1" is-back="{{true}}" title="群二维码名片" title-size="34" bind:__l="__l"></u-navbar><block wx:if="{{qrFlag}}"><create-new-qr-code vue-id="8ddb4382-2" title="{{currentGroupInfo.chatGroupName}}" titleIconSrc="{{currentGroupInfo.chatGroupAvatar}}" qrInfoObj="{{qrInfoObj}}" bind:__l="__l"></create-new-qr-code></block></view>

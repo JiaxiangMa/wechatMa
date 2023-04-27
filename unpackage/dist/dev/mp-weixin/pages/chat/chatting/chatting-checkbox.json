@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#F8F8F8",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "chat-item": "/components/chat-item/chat-item",
+    "u-action-sheet": "/node-modules/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

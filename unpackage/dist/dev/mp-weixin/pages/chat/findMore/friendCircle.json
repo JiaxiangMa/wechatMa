@@ -1,0 +1,19 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": " ",
+  "transparentTitle": "auto",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
+    "u-grid": "/node-modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/node-modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty",
+    "u-action-sheet": "/node-modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "video-player": "/components/videoPlayer/videoPlayer",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal",
+    "inner-player": "/components/videoPlayer/innerPlayer"
+  }
+}

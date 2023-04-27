@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-checkbox": "/node-modules/uview-ui/components/u-checkbox/u-checkbox",
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "video-player": "/components/videoPlayer/videoPlayer",
+    "inner-chat-record": "/components/chat-item/chat-record-content-mask"
+  }
+}

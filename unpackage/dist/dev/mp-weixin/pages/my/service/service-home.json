@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-row": "/node-modules/uview-ui/components/u-row/u-row",
+    "u-col": "/node-modules/uview-ui/components/u-col/u-col",
+    "u-action-sheet": "/node-modules/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

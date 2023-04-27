@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "inner-chat-item": "/components/chat-item/inner-chat-item"
+  }
+}

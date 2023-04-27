@@ -1,0 +1,1 @@
+<view style="position:relative;"><video style="{{('height:'+600+'rpx;width:'+winWidth/10*6+'px')}}" show-center-play-btn="{{true}}" id="{{'video_'+previewVideoIndex}}" controls="{{false}}" show-fullscreen-btn="{{false}}" src="{{previewVideoSrc}}"></video></view>

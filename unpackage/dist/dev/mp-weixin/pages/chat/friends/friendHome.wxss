@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.slot-wrap.data-v-7558bff6 {
+  display: flex;
+  align-items: center;
+  /* 如果您想让slot内容占满整个导航栏的宽度 */
+  flex: 1;
+  width: 100%;
+  /* 如果您想让slot内容与导航栏左右有空隙 */
+  padding: 0 30rpx;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.perch.data-v-7558bff6 {
+  height: 10rpx;
+}
+.friendInfo.data-v-7558bff6 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20rpx 30rpx 40rpx 40rpx;
+  background-color: #FFFFFF;
+}
+.friendInfo .img.data-v-7558bff6 {
+  display: block;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 10rpx;
+}
+.friendInfo-desc.data-v-7558bff6 {
+  padding-left: 30rpx;
+}
+.friendInfo-desc-name.data-v-7558bff6 {
+  font-weight: bold;
+  font-size: 36rpx;
+  -webkit-transform: translateY(-10rpx);
+          transform: translateY(-10rpx);
+  color: #000000;
+}
+.friendInfo-desc-gray.data-v-7558bff6 {
+  color: #909399;
+  font-size: 30rpx;
+}
+

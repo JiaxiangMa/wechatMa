@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "chatgpt对话",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-notice-bar": "/node-modules/uview-ui/components/u-notice-bar/u-notice-bar"
+  }
+}

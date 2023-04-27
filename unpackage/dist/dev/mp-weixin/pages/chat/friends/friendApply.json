@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "新的朋友",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-cell-group": "/node-modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-empty": "/node-modules/uview-ui/components/u-empty/u-empty"
+  }
+}

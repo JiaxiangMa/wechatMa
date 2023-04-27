@@ -1,0 +1,192 @@
+	
+	@import url("./uni.css");
+	/* 提示窗口 */
+	.uni-tip {
+		padding: 15px;
+		width: 300px;
+		background: #fff;
+		box-sizing: border-box;
+		border-radius: 10px;
+	}
+	
+	.uni-tip-title {
+		text-align: center;
+		font-weight: bold;
+		font-size: 16px;
+		color: #333;
+	}
+	
+	.uni-tip-content {
+		padding: 15px;
+		font-size: 14px;
+		color: #666;
+	}
+	
+	.uni-tip-group-button {
+		margin-top: 10px;
+		display: flex;
+	}
+	
+	.uni-tip-button {
+		width: 100%;
+		text-align: center;
+		font-size: 14px;
+		color: #3b4144;
+		// margin-left: 20rpx;
+	}
+	
+    /* 发起页面的样式*/	
+	.page{
+		/* background-color: #f1f1f1; */
+		font-size: 30upx;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.start-part{
+		width:auto;
+		height:auto;
+		background:rgba(255,255,255,1);
+		padding-bottom: 20rpx;
+		padding-left: 20rpx;
+		padding-right: 20rpx;
+	}
+	.start-part-image-area{
+		width:auto;
+		height:auto;
+		background:rgba(255,255,255,1);
+		padding-left: 20rpx;
+		padding-right: 20rpx;
+	}
+	.image-area{
+		min-height: 80rpx;
+		width:auto;
+		display:inline-block !important;
+		display:inline;
+		padding-left: 4rpx;
+	}
+	.avator {
+		display: inline-block;
+		flex: 1;
+		width: 70upx;
+		height: 70upx;
+		background: #fff;
+		border: 2upx solid #eee;
+		border-radius: 15rpx;
+		overflow: hidden;
+		padding-top: 2rpx;
+		margin: 10rpx;
+	}
+	
+	.grid-text{
+		width:100%;
+		font-size: 24rpx;
+		overflow:hidden; 
+		text-overflow:ellipsis; 
+		white-space:nowrap;
+		display: block;
+		text-align: center;
+	}
+	
+	.uni-searchbar{
+		width: auto;
+		height:75rpx;
+		background:rgba(238,238,238,1);
+		border-radius:10px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	
+	}
+	.uni-searchbar .search-input{
+	  flex: 1;
+	  text-align: left;
+	  line-height: 100upx;
+	  margin-left: 20upx;
+	  width:68rpx;
+	  height:44rpx;
+	  font-size:34rpx;
+	  font-family:PingFangSC-Regular,PingFangSC;
+	  font-weight:400;
+	  color:rgba(107,107,107,1);
+	  line-height:44rpx;
+	}
+	.uni-searchbar .icon-search{
+		margin-top: -80rpx;
+		margin-left: 10rpx;
+		text-align: left;
+		line-height: 100upx;
+		color: #c8c7cc;
+		width:28rpx;
+		height:28rpx;
+	}
+	.no-data{
+		margin-top: 250rpx;
+		margin-left: 70rpx;
+	}
+	.page {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		z-index: 10;
+	}
+	
+	.scrollList {
+		flex: 1;
+		height: 100vh;
+	}
+	
+	.me-list-top{
+		line-height: 2.4em;
+		padding-right: 10rpx;
+	}
+	
+	.me-list-logo {
+		border-radius: 50%;
+	}
+	
+	.uni-indexed-list-bar {
+		width: 46upx;
+		height: 100vh;
+	    background: rgba(255, 255, 255, 1);
+		display: flex;
+		flex-direction: column;
+		// justify-content: center;
+	}
+	
+	.uni-indexed-list-bar.active {
+		background-color:#F1F1F1
+	}
+	
+	.uni-indexed-list-text {
+		color: #000000;
+		font-size: 22upx;
+		text-align: center;
+	}
+	
+	.uni-indexed-list-bar.active .uni-indexed-list-text.active {
+		color: #FFFFFF;
+		border-radius: 50%;
+		background-color: #007AFF;
+	}
+	
+	.uni-indexed-list-alert {
+		position: absolute;
+		z-index: 20;
+		width: 160upx;
+		height: 160upx;
+		left: 50%;
+		top: 50%;
+		margin-left: -80upx;
+		margin-top: -80upx;
+		border-radius: 80upx;
+		text-align: center;
+		line-height: 160upx;
+		font-size: 70upx;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	.readOnly{
+		background-color: #EEEEEE;
+	}
